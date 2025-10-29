@@ -59,9 +59,21 @@ h1 {
 }
 @media (max-width: 600px) {
   h1 {
-    font-size: 32px;
+    font-size: 25px;
   }
   p {
-    font-size: 17px;
-}
+    font-size: 15px;
+  }
+.techniques-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centers the cards horizontally */
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .technique {
+    width: 85%; /* make the cards narrower for better balance */
+    margin: 1rem auto; /* centers each card */
+  }
 }
